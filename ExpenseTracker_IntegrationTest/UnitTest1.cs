@@ -19,10 +19,11 @@ namespace ExpenseTracker_IntegrationTest
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void TestTitle()
         {
-            _driver.Navigate().GoToUrl("https://localhost:");
+            _driver.Navigate().GoToUrl("https://localhost:5001/");
             Assert.AreEqual("Expense Tracker", _driver.Title);
+            Assert.IsTrue(_driver.Title.Contains("Expense Tracker"));
         }
 
         [TestCleanup]
