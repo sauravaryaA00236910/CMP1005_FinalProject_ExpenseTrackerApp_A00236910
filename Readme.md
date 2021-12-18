@@ -19,18 +19,18 @@ To add authentication and authorization for registering users and their log in, 
 
 I also modified some UI aspects of the page from the site.css file in the wwwroot folder.
 
+After that for my final submission, I added an integration test project to the solution and included some integration tests to test if the application loads successfully.
+
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 What else I tried?
 
-I tried to add charts or graphs into the app using Chart.js library but couln't figure out how to integrate it with my databse to retreive and showcase data on the graph. I also tried to include or intgrate Microsoft Graph .NET SDK to generate graphs. I installed microsoft's authentication library and OWIN middleware NuGet packages but couldn't figure out the further steps to work it down with the expense inputs of the user over the entered dateTime. Further, I tried to find charts option in the tools menu and other inbuilt graph options but I think those are available for different kind of projects which include forms.
+I tried to add charts or graphs into the app using Chart.js library but couln't figure out how to integrate it with my databse to retreive and showcase data on the graph. I also tried to include or intgrate Microsoft Graph .NET SDK to generate graphs. I installed microsoft's authentication library and OWIN middleware NuGet packages but couldn't figure out the further steps to work it down with the expense inputs of the user over the entered dateTime. Further, I tried to find charts option in the tools menu and other inbuilt graph options but I think those are available for different kind of projects which include forms. 
+
+For my final submission, I tried to include a WebAPI project in the solution but couldn't think of any value add it can provide in this kind of an application as there are no specific functions like the previous web calculator app to call from the webAPI project.
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-What's next??
-
-To complete my project, my next step would be to include some strong integration tests in the project as there is a limited scope of unit tests in this kind of application. Also, I will try to demonstrate the inclusion of Web API project in the app as it is only based on Web UI project as of now.
 
 
 
