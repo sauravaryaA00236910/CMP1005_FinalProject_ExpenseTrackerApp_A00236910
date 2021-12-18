@@ -19,7 +19,7 @@ To add authentication and authorization for registering users and their log in, 
 
 I also modified some UI aspects of the page from the site.css file in the wwwroot folder.
 
-After that for my final submission, I added an integration test project to the solution and included some integration tests to test if the application loads successfully.
+After that, for my final submission, I have added an integration test project to the solution and included some integration tests for possible screens and pages to test if the application loads as intended.
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
